@@ -1066,15 +1066,15 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(6, 6, 8, 0.65);
+    background: linear-gradient(180deg, rgba(6,6,8,0.55) 0%, rgba(6,6,8,0.75) 60%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 10;
     text-align: center;
-    padding: 20px;
-    transition: opacity 0.4s ease;
+    padding: 18px 16px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .play-btn {
@@ -1158,6 +1158,81 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
     height: 100%;
     z-index: 20;
     object-fit: cover;
+}
+
+/* Small caption under the video to clarify portrait vs landscape versions */
+.video-caption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* Tablet breakpoint adjustments */
+@media (max-width: 768px) {
+    .video-container {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .video-preview-wrapper {
+        aspect-ratio: 9 / 16; /* taller for tablets in portrait orientation */
+        min-height: 360px;
+    }
+
+    .play-btn {
+        width: 66px;
+        height: 66px;
+    }
+
+    .play-triangle {
+        border-left: 14px solid var(--text-white);
+    }
+
+    .video-overlay-play h3 {
+        font-size: 1.1rem;
+    }
+
+    .video-overlay-play p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Mobile optimizations */
+@media (max-width: 480px) {
+    .video-preview-wrapper {
+        aspect-ratio: 9 / 16;
+        min-height: 320px;
+    }
+
+    .video-overlay-play {
+        padding: 14px 12px;
+        background: linear-gradient(180deg, rgba(6,6,8,0.45) 0%, rgba(6,6,8,0.85) 80%);
+    }
+
+    .play-btn {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 12px;
+    }
+
+    .play-triangle {
+        border-left: 11px solid var(--text-white);
+    }
+
+    .video-overlay-play h3 {
+        font-size: 1rem;
+        line-height: 1.15;
+    }
+
+    .video-overlay-play p {
+        font-size: 0.8rem;
+        opacity: 0.95;
+    }
+
+    .video-caption {
+        font-size: 0.82rem;
+    }
 }
 
 /* ==========================================================================
