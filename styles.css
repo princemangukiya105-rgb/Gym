@@ -1962,7 +1962,8 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
         transform: translateY(-8px);
     }
     
-    .gallery-grid {
+    .gallery-grid,
+    .gallery-preview-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 240px;
     }
@@ -2000,6 +2001,11 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
     .nav-menu.active {
         right: 0;
     }
+
+    .nav-menu.active .nav-overlay {
+        display: block;
+        opacity: 1;
+    }
     
     .nav-menu ul {
         flex-direction: column;
@@ -2028,6 +2034,10 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
     .hero-description {
         font-size: 1.1rem;
     }
+
+    .hero-section {
+        min-height: 90vh;
+    }
     
     .about-grid, .plans-grid, .trainers-grid {
         grid-template-columns: 1fr;
@@ -2037,6 +2047,11 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+    
+    .gallery-preview-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
     }
     
     .form-group-row {
@@ -2081,7 +2096,8 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
         width: 100%;
     }
     
-    .gallery-grid {
+    .gallery-grid,
+    .gallery-preview-grid {
         grid-template-columns: 1fr;
     }
     
@@ -2090,6 +2106,10 @@ body.light-theme .theme-icon-light { opacity: 1; transform: rotate(0deg); }
     }
     
     .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links-grid {
         grid-template-columns: 1fr;
     }
     
