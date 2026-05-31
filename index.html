@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APEX ATHLETICS - Premium luxury fitness center and gym. Achieve your health goals with state-of-the-art equipment, elite personal trainers, custom membership plans, and a vibrant community. Join today!">
+    <meta name="keywords" content="gym, fitness center, personal training, bodybuilding, membership plans, yoga, cardio, APEX ATHLETICS, strength training, workout">
+    <meta name="author" content="APEX ATHLETICS">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://apexathletics.com/">
+    <meta property="og:title" content="APEX ATHLETICS | Premium Gym & Fitness Center">
+    <meta property="og:description" content="Achieve your physical peak with APEX ATHLETICS. Premium equipment, elite coaches, customized membership options, and direct WhatsApp support. Join us today!">
+    <!-- ✏️ OG Image: paste your gym photo URL below -->
+    <meta property="og:image" content="YOUR_OG_IMAGE_URL_HERE">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="APEX ATHLETICS | Premium Gym & Fitness Center">
+    <meta property="twitter:description" content="Achieve your physical peak with APEX ATHLETICS. Premium equipment, elite coaches, customized membership options, and direct WhatsApp support. Join us today!">
+    <meta property="twitter:image" content="YOUR_OG_IMAGE_URL_HERE">
+
+    <title>APEX ATHLETICS | Premium Gym & Fitness Center</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Favicon / Logo assets -->
+    <!-- Upload your square brand mark to assets/logo-square.png and favicon to assets/favicon.png -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="f
+    avicon-16x16.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta name="theme-color" content="#060608">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="container header-container">
+
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="assets/trainer-john.png" alt="APEX ATHLETICS Logo" class="logo-img" onerror="this.style.display='none'">
+                <span class="logo-text"><span class="logo-accent">YOUR</span>GYM-NAME</span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#hero"     class="nav-link active">Home</a></li>
+                    <!-- <li><a href="#about"    class="nav-link">Why Us</a></li> -->
+                    <li><a href="#plans"    class="nav-link">Plans</a></li>
+                    <li><a href="#video"    class="nav-link">Training</a></li>
+                    <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                    <li><a href="#gallery"  class="nav-link">Gallery</a></li>
+                    <li><a href="#reviews"  class="nav-link">Reviews</a></li>
+                    <li><a href="#contact"  class="nav-link">Contact</a></li>
+                </ul>
+                <!-- Mobile close overlay -->
+                <div class="nav-overlay" id="navOverlay"></div>
+            </nav>
+
+            <!-- Right Actions -->
+            <div class="header-actions">
+                
+
+                <a href="#plans" class="btn btn-primary btn-nav-cta">Join Now</a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero Banner Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-wrapper">
+            <!-- ✏️ HERO BACKGROUND IMAGE
+                 Replace YOUR_HERO_IMAGE_URL with your gym photo URL.
+                 Supports: relative path (assets/hero.jpg) or full URL (https://...) -->
+            <!-- <img src="ambitious-studio-rick-barrett-FlOzmiAsPlQ-unsplash.jpg" alt="APEX ATHLETICS Modern Gym Background" class="hero-bg-img"> -->
+            
+            <!-- Video background placeholder. Gym owner can replace src with local/remote video path -->
+            <!-- Uncomment and edit to play a video background: -->
+            <video autoplay loop muted playsinline class="hero-bg-video">
+                <source src="200657-913478674_medium.mp4" type="video/mp4">
+            </video>
+            
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tagline fade-in">BUILD YOUR ULTIMATE TEMPLE</span>
+                <h1 class="hero-title fade-in">UNLEASH YOUR <span class="text-glow">POTENTIAL</span></h1>
+                <p class="hero-description fade-in">
+                    Step into APEX ATHLETICS, a premium training facility engineered for results. Equip your goals with world-class facilities, elite programming, and dedicated coaches.
+                </p>
+                <div class="hero-ctas fade-in">
+                    <a href="#plans" class="btn btn-primary btn-glow">View Plans</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">OUR ADVANTAGES</span>
+                <h2 class="section-title">WHY CHOOSE US</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">We offer more than just weights. We provide a tailored infrastructure engineered to sculpt physical excellence.</p>
+            </div>
+
+            <div class="about-grid">
+                <!-- Advantage Card 1 -->
+                <div class="about-card scroll-reveal">
+                    <div class="card-icon-wrapper">
+                        <!-- Custom Inline SVG for Modern Gym Icon -->
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 3h12M6 21h12M12 3v18M3 7h6M15 7h6M3 17h6M15 17h6M2 10h4M18 10h4M2 14h4M18 14h4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Elite Equipment</h3>
+                    <p class="card-text">Access premium, professional-grade biomechanical lifting machines and heavy plate-loaded strength stations designed for peak muscle activation.</p>
+                </div>
+
+                <!-- Advantage Card 2 -->
+                <div class="about-card scroll-reveal highlight-card">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm14 14v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Expert Coaching</h3>
+                    <p class="card-text">Our certified fitness coaches and trainers formulate custom periodized training blocks and nutritional regimens tailored specifically to you.</p>
+                </div>
+
+                <!-- Advantage Card 3 -->
+                <div class="about-card scroll-reveal">
+                    <div class="card-icon-wrapper">
+                        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Flexible Schedule</h3>
+                    <p class="card-text">Open 24/7. Elevate your training standard whenever inspiration strikes. Safe, keycard-access security for workouts on your own time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Plans Section -->
+    <section id="plans" class="section plans-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">MEMBERSHIP TIERS</span>
+                <h2 class="section-title">CHOOSE YOUR STAND</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">Invest in your longevity. Select a tier and connect directly via WhatsApp to activate your pass.</p>
+            </div>
+
+            <div class="plans-grid">
+                <!-- Plan Card 1 -->
+                <div class="plan-card scroll-reveal" data-plan="Basic Pass">
+                    <div class="plan-header">
+                        <span class="plan-tier">IRON CORE</span>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><span class="check-icon">✓</span> Standard Gym Floor Access</li>
+                            <li><span class="check-icon">✓</span> Locker Room & Showers</li>
+                            <li><span class="check-icon">✓</span> Free High-speed Wi-Fi</li>
+                            <li class="muted"><span class="cross-icon">✗</span> 1-on-1 Personal Coaching</li>
+                            <li class="muted"><span class="cross-icon">✗</span> Custom Nutritional Planning</li>
+                            <li class="muted"><span class="cross-icon">✗</span> Priority Zone Booking</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <!-- WhatsApp Enquiry Button -->
+                        <a href="https://wa.me/1234567890?text=Hi!%20I%20am%20interested%20in%20the%20Iron%20Core%20%28Basic%20Pass%29%20membership%20at%20APEX%20ATHLETICS.%20Please%20provide%20more%20details." 
+                           target="_blank" 
+                           class="btn btn-whatsapp whatsapp-btn">
+                            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.233-1.372a9.948 9.948 0 0 0 4.777 1.22h.005c5.505 0 9.989-4.478 9.99-9.986A9.97 9.97 0 0 0 12.012 2zm5.835 14.16c-.244.686-1.218 1.258-1.748 1.343-.48.077-1.11.144-3.232-.733-2.71-1.12-4.457-3.875-4.593-4.056-.134-.18-1.107-1.47-1.107-2.805 0-1.336.702-1.99.953-2.253.25-.262.553-.327.737-.327.185 0 .37 0 .532.008.174.008.406-.06.634.492.245.596.837 2.04.912 2.19.075.15.126.326.024.526-.1.2-.15.326-.301.502-.15.176-.316.39-.45.522-.15.15-.306.313-.131.614.175.3.778 1.282 1.669 2.074.948.844 1.748 1.107 2.05 1.258.3.15.477.126.654-.075.177-.2.753-.876.953-1.176.2-.3.4-.25.676-.15.275.1.1.753 1.75 1.564.84.415.992.686.992.986 0 .3-.15 1.302-.394 1.988z"/>
+                            </svg>
+                            <span>Enquire via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Plan Card 2 (Featured) -->
+                <div class="plan-card scroll-reveal featured-card" data-plan="Standard Pass">
+                    <div class="plan-badge">MOST POPULAR</div>
+                    <div class="plan-header">
+                        <span class="plan-tier">APEX PREMIUM</span>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><span class="check-icon">✓</span> Unlimited 24/7 Gym Floor Access</li>
+                            <li><span class="check-icon">✓</span> Locker Room, Showers & Sauna</li>
+                            <li><span class="check-icon">✓</span> All Group Fitness Classes Included</li>
+                            <li><span class="check-icon">✓</span> 2x Monthly Personal Coach Review</li>
+                            <li><span class="check-icon">✓</span> Customized Nutritional Guide</li>
+                            <li class="muted"><span class="cross-icon">✗</span> Unlimited 1-on-1 PT Sessions</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <!-- WhatsApp Enquiry Button -->
+                        <a href="https://wa.me/1234567890?text=Hi!%20I%20am%20interested%20in%20the%20Apex%20Premium%20%28Standard%20Pass%29%20membership%20at%20APEX%20ATHLETICS.%20Please%20provide%20more%20details." 
+                           target="_blank" 
+                           class="btn btn-whatsapp whatsapp-btn btn-whatsapp-glow">
+                            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.233-1.372a9.948 9.948 0 0 0 4.777 1.22h.005c5.505 0 9.989-4.478 9.99-9.986A9.97 9.97 0 0 0 12.012 2zm5.835 14.16c-.244.686-1.218 1.258-1.748 1.343-.48.077-1.11.144-3.232-.733-2.71-1.12-4.457-3.875-4.593-4.056-.134-.18-1.107-1.47-1.107-2.805 0-1.336.702-1.99.953-2.253.25-.262.553-.327.737-.327.185 0 .37 0 .532.008.174.008.406-.06.634.492.245.596.837 2.04.912 2.19.075.15.126.326.024.526-.1.2-.15.326-.301.502-.15.176-.316.39-.45.522-.15.15-.306.313-.131.614.175.3.778 1.282 1.669 2.074.948.844 1.748 1.107 2.05 1.258.3.15.477.126.654-.075.177-.2.753-.876.953-1.176.2-.3.4-.25.676-.15.275.1.1.753 1.75 1.564.84.415.992.686.992.986 0 .3-.15 1.302-.394 1.988z"/>
+                            </svg>
+                            <span>Enquire via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Plan Card 3 -->
+                <div class="plan-card scroll-reveal" data-plan="Premium Pass">
+                    <div class="plan-header">
+                        <span class="plan-tier">VIP ELITE</span>
+                        <div class="plan-price">
+                            <span class="currency">$</span>
+                            <span class="amount">79</span>
+                            <span class="period">/mo</span>
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><span class="check-icon">✓</span> VIP Key Access & Dedicated Lounges</li>
+                            <li><span class="check-icon">✓</span> Full Recovery Spa (Sauna, Steam, Cold Plunge)</li>
+                            <li><span class="check-icon">✓</span> Unlimited 1-on-1 Personal Trainer Sessions</li>
+                            <li><span class="check-icon">✓</span> Personalized Meal Prep Deliveries Discount</li>
+                            <li><span class="check-icon">✓</span> Custom Physiology & Body Scan Profiling</li>
+                            <li><span class="check-icon">✓</span> Free Apparel and Supplement Starter Kit</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <!-- WhatsApp Enquiry Button -->
+                        <a href="https://wa.me/1234567890?text=Hi!%20I%20am%20interested%20in%20the%20Vip%20Elite%20%28Premium%20Pass%29%20membership%20at%20APEX%20ATHLETICS.%20Please%20provide%20more%20details." 
+                           target="_blank" 
+                           class="btn btn-whatsapp whatsapp-btn">
+                            <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.233-1.372a9.948 9.948 0 0 0 4.777 1.22h.005c5.505 0 9.989-4.478 9.99-9.986A9.97 9.97 0 0 0 12.012 2zm5.835 14.16c-.244.686-1.218 1.258-1.748 1.343-.48.077-1.11.144-3.232-.733-2.71-1.12-4.457-3.875-4.593-4.056-.134-.18-1.107-1.47-1.107-2.805 0-1.336.702-1.99.953-2.253.25-.262.553-.327.737-.327.185 0 .37 0 .532.008.174.008.406-.06.634.492.245.596.837 2.04.912 2.19.075.15.126.326.024.526-.1.2-.15.326-.301.502-.15.176-.316.39-.45.522-.15.15-.306.313-.131.614.175.3.778 1.282 1.669 2.074.948.844 1.748 1.107 2.05 1.258.3.15.477.126.654-.075.177-.2.753-.876.953-1.176.2-.3.4-.25.676-.15.275.1.1.753 1.75 1.564.84.415.992.686.992.986 0 .3-.15 1.302-.394 1.988z"/>
+                            </svg>
+                            <span>Enquire via WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Video Section -->
+    <section id="video" class="section video-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">MOTIVATIONAL STANDARD</span>
+                <h2 class="section-title">TRAINING PROTOCOLS</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">Glimpse into our heavy training days. Watch the session trailer below to see our premium culture in action.</p>
+            </div>
+
+            <!-- Video Player Mockup -->
+            <div class="video-container scroll-reveal">
+                <div class="video-preview-wrapper" id="videoWrapper">
+                    <!-- ✏️ VIDEO SECTION THUMBNAIL IMAGE — paste URL below -->
+                    <img src="thumbnail_1_31.1s.jpeg" alt="Training video background preview" class="video-thumbnail">
+                    <div class="video-overlay-play">
+                        <button class="play-btn" id="playBtn" aria-label="Play Training Video">
+                            <span class="play-triangle"></span>
+                        </button>
+                        <h3>WATCH APEX IN ACTION</h3>
+                        <p>2:14 mins • Cinematic Training Reel</p>
+                    </div>
+                    <!-- The actual video element (hidden by default, loaded on play click for speed) 
+                         Gym owners can edit the video src below manually as requested -->
+                    <video id="trainingVideo" controls class="main-video-element" style="display: none;">
+                        <source src="Gym training.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainer Information Section -->
+    <section id="trainers" class="section trainers-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">ELITE COACHES</span>
+                <h2 class="section-title">MEET THE COMMANDERS</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">World-class competitive coaches and biomechanics specialists dedicated to optimizing your kinetic movements.</p>
+            </div>
+
+            <div class="trainers-grid">
+                <!-- Trainer 1 -->
+                <div class="trainer-card scroll-reveal">
+                    <div class="trainer-img-wrapper">
+                        <!-- ✏️ TRAINER 1 PHOTO — paste URL below, or leave empty to show initials avatar -->
+                        <img src="powerful-anime-trainer-stockcake.webp" alt="Head Trainer Coach John" class="trainer-img" onerror="this.style.display='none'">
+                        <div class="trainer-socials">
+                            <a href="#" aria-label="Instagram"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg></a>
+                            <a href="#" aria-label="YouTube"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg></a>
+                            <a href="#" aria-label="LinkedIn"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">STRENGTH & HYPERTROPHY</span>
+                        <h3 class="trainer-name">JOHN VALENTINE</h3>
+                        <p class="trainer-bio">Former competitive bodybuilder with 12+ years of coaching experience focusing on hypertrophy mechanics and periodization.</p>
+                    </div>
+                </div>
+
+                <!-- Trainer 2 -->
+                <div class="trainer-card scroll-reveal">
+                    <div class="trainer-img-wrapper">
+                        <!-- ✏️ TRAINER 2 PHOTO — paste URL below, or leave empty to show initials avatar -->
+                        <img src="a-muscular-cartoon-fitness-trainer-in-gym-attire-and-a-cap-showcasing-strength-and-health-png.webp" alt="Elite Trainer Coach Sarah" class="trainer-img" onerror="this.style.display='none'">
+                        <div class="trainer-socials">
+                            <a href="#" aria-label="Instagram"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg></a>
+                            <a href="#" aria-label="Twitter"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                            <a href="#" aria-label="LinkedIn"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">PHYSIOLOGY & MOBILITY</span>
+                        <h3 class="trainer-name">SARAH JENKINS</h3>
+                        <p class="trainer-bio">Master of Exercise Science. Specializes in posture correction, biomechanical efficiency, and high-intensity interval conditioning.</p>
+                    </div>
+                </div>
+
+                <!-- Trainer 3 -->
+                <div class="trainer-card scroll-reveal">
+                    <div class="trainer-img-wrapper">
+                        <!-- ✏️ TRAINER 2 PHOTO — paste URL below, or leave empty to show initials avatar -->
+                        <img src="female-personal-trainer-character-flat-260nw-2428537307-removebg-preview.png" alt="Elite Trainer Coach Sarah" class="trainer-img" onerror="this.style.display='none'">
+                        <div class="trainer-socials">
+                            <a href="#" aria-label="Instagram"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg></a>
+                            <a href="#" aria-label="Twitter"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                            <a href="#" aria-label="LinkedIn"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">PHYSIOLOGY & MOBILITY</span>
+                        <h3 class="trainer-name">SARAH JENKINS</h3>
+                        <p class="trainer-bio">Master of Exercise Science. Specializes in posture correction, biomechanical efficiency, and high-intensity interval conditioning.</p>
+                    </div>
+                </div>
+
+                <!-- Trainer 4 (Custom/CSS styled mockup or avatar fallback, highlighting how layout adjusts) -->
+                <div class="trainer-card scroll-reveal">
+                    <div class="trainer-img-wrapper placeholder-img-wrapper">
+                        <!-- Standard avatar silhouette via SVG or stylized placeholder -->
+                        <div class="avatar-gradient">
+                            <span class="placeholder-initials">MC</span>
+                        </div>
+                        <div class="trainer-socials">
+                            <a href="#" aria-label="Instagram"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg></a>
+                            <a href="#" aria-label="LinkedIn"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <span class="trainer-role">POWERLIFTING & CALISTHENICS</span>
+                        <h3 class="trainer-name">MARCUS CHEN</h3>
+                        <p class="trainer-bio">National powerlifting medalist. Teaches core bracing, CNS stimulation, and complex bodyweight athletic gymnastics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Homepage Preview) -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">VISUAL STEREOSCOPICS</span>
+                <h2 class="section-title">THE ARENA</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">Inspect the grounds. High ceilings, clean equipment, and an environment optimized for pure focus.</p>
+            </div>
+
+            <!-- 4-image preview grid -->
+            <div class="gallery-preview-grid">
+
+                <!-- ✏️ GALLERY IMAGE 1 — replace YOUR_GALLERY1_IMAGE_URL_HERE -->
+                <div class="gp-item scroll-reveal">
+                    <img src="jelmer-assink-gzeTjGu3b_k-unsplash.jpg" alt="Training floor" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">TRAINING FLOOR</span>
+                        <h4 class="gallery-title">Functional Zone</h4>
+                    </div>
+                </div>
+
+                <!-- ✏️ GALLERY IMAGE 2 — replace YOUR_GALLERY2_IMAGE_URL_HERE -->
+                <div class="gp-item gp-tall scroll-reveal">
+                    <img src="ambitious-studio-rick-barrett-FlOzmiAsPlQ-unsplash.jpg" alt="Strength zone" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">STRENGTH ZONE</span>
+                        <h4 class="gallery-title">Iron Sanctuary</h4>
+                    </div>
+                </div>
+
+                <!-- ✏️ GALLERY IMAGE 3 — replace YOUR_GALLERY3_IMAGE_URL_HERE or keep CSS fallback -->
+                <div class="gp-item scroll-reveal">
+                    <div class="gallery-graphic-fallback fitness-bg-gradient-1">
+                        <div class="fallback-icon-text">
+                            <span class="large-num">24/7</span>
+                            <span>ACCESS</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">CARDIO</span>
+                        <h4 class="gallery-title">Endurance Deck</h4>
+                    </div>
+                </div>
+
+                <!-- ✏️ GALLERY IMAGE 4 — replace YOUR_GALLERY4_IMAGE_URL_HERE or keep CSS fallback -->
+                <div class="gp-item scroll-reveal">
+                    <div class="gallery-graphic-fallback fitness-bg-gradient-2">
+                        <div class="fallback-icon-text">
+                            <span class="large-num">SPA</span>
+                            <span>RECOVERY</span>
+                        </div>
+                    </div>
+                    <div class="gallery-overlay">
+                        <span class="gallery-cat">RECOVERY</span>
+                        <h4 class="gallery-title">Cryo &amp; Sauna</h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- View More CTA -->
+            <div class="gallery-cta text-center">
+                <a href="gallery.html" class="btn btn-secondary btn-gallery-more">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    View Full Gallery
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comments Section with Slider (Slidebar) -->
+    <section id="reviews" class="section reviews-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">COMMUNITY WORDS</span>
+                <h2 class="section-title">THE PULSE OF APEX</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">Real words from real athletes who chose to level up with us.</p>
+            </div>
+
+            <!-- Slider -->
+            <div class="reviews-slider-outer scroll-reveal">
+                <div class="slider-container" id="sliderContainer">
+
+                    <div class="review-slide active-slide">
+                        <div class="review-card">
+                            <div class="review-top">
+                                <div class="rating-stars">★★★★★</div>
+                                <p class="review-comment">"APEX changed my entire standard for gyms. Elite equipment, coaches who understand physiology, and a community that pushes you. Absolutely worth every penny."</p>
+                            </div>
+                            <div class="review-user">
+                                <div class="user-avatar-circle">DR</div>
+                                <div class="user-info">
+                                    <h4 class="user-name">David Ross</h4>
+                                    <span class="user-tier">Apex Premium Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-slide">
+                        <div class="review-card">
+                            <div class="review-top">
+                                <div class="rating-stars">★★★★★</div>
+                                <p class="review-comment">"24/7 access is a game changer for my schedule. The facility is immaculate and the atmosphere is seriously motivating. 10/10 recommendation!"</p>
+                            </div>
+                            <div class="review-user">
+                                <div class="user-avatar-circle">SM</div>
+                                <div class="user-info">
+                                    <h4 class="user-name">Sophia Miller</h4>
+                                    <span class="user-tier">Iron Core Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-slide">
+                        <div class="review-card">
+                            <div class="review-top">
+                                <div class="rating-stars">★★★★★</div>
+                                <p class="review-comment">"Joining via WhatsApp was seamless. One month with Coach John and my form is transformed. The cryo spa recovery is a bonus I didn't know I needed!"</p>
+                            </div>
+                            <div class="review-user">
+                                <div class="user-avatar-circle">AC</div>
+                                <div class="user-info">
+                                    <h4 class="user-name">Alex Chen</h4>
+                                    <span class="user-tier">VIP Elite Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-slide">
+                        <div class="review-card">
+                            <div class="review-top">
+                                <div class="rating-stars">★★★★★</div>
+                                <p class="review-comment">"Group fitness sessions here are electric. Coaches push you to your limit and the welcoming community keeps you coming back. Best gym in town!"</p>
+                            </div>
+                            <div class="review-user">
+                                <div class="user-avatar-circle">EL</div>
+                                <div class="user-info">
+                                    <h4 class="user-name">Emma Larson</h4>
+                                    <span class="user-tier">Apex Premium Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-slide">
+                        <div class="review-card">
+                            <div class="review-top">
+                                <div class="rating-stars">★★★★★</div>
+                                <p class="review-comment">"VIP Elite is worth every cent. Sauna and cold plunge post leg day is a different level of recovery. More gains in 3 months than 2 years elsewhere."</p>
+                            </div>
+                            <div class="review-user">
+                                <div class="user-avatar-circle">TB</div>
+                                <div class="user-info">
+                                    <h4 class="user-name">Tyler Briggs</h4>
+                                    <span class="user-tier">VIP Elite Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- /.slider-container -->
+
+                <!-- Slider Navigation -->
+                <div class="slider-controls">
+                    <button class="slider-arrow prev-arrow" id="prevBtn" aria-label="Previous review">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                    </button>
+                    
+                    <div class="slider-dots" id="sliderDots">
+                        <!-- Dot indicators generated by JS -->
+                    </div>
+
+                    <button class="slider-arrow next-arrow" id="nextBtn" aria-label="Next review">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">GET IN TOUCH</span>
+                <h2 class="section-title">START YOUR MISSION</h2>
+                <div class="title-bar"></div>
+                <p class="section-desc">Have questions about plans, trials, or amenities? Message us and our support team will reply within 2 hours.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info Column -->
+                <div class="contact-info-wrapper scroll-reveal">
+                    <h3 class="contact-subheading">REACH APEX</h3>
+                    <p class="contact-text-lead">Ready to commit? Fill out the form or drop by the facility. We look forward to meeting you.</p>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <div class="info-icon-circle">
+                                <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span>Phone & WhatsApp Support</span>
+                                <strong>+91 7039761021</strong>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon-circle">
+                                <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span>Official Inquiries</span>
+                                <strong>princemangukiya105@gmail.com</strong>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon-circle">
+                                <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <span>Training Grounds Location</span>
+                                <strong>100 Apex Boulevard, Metro City, NY</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hours Box -->
+                    <div class="hours-card">
+                        <h4>ARENA OPERATIONAL HOURS</h4>
+                        <ul>
+                            <li><span>Monday - Friday</span> <span>24 Hours Open</span></li>
+                            <li><span>Saturday</span> <span>5:00 AM - 10:00 PM</span></li>
+                            <li><span>Sunday</span> <span>7:00 AM - 8:00 PM</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Form Column -->
+                <div class="contact-form-wrapper scroll-reveal">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="formName">Full Name</label>
+                                <input type="text" id="formName" name="name" placeholder="John Doe" required>
+                                <span class="focus-border"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formEmail">Email Address</label>
+                                <input type="email" id="formEmail" name="email" placeholder="john@example.com" required>
+                                <span class="focus-border"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formPhone">Phone Number</label>
+                            <input type="tel" id="formPhone" name="phone" placeholder="+1 (555) 000-0000">
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formPlan">Interested Plan</label>
+                            <select id="formPlan" name="plan">
+                                <option value="" disabled selected>Select a Tier</option>
+                                <option value="iron-core">Iron Core (Basic - $29/mo)</option>
+                                <option value="apex-premium">Apex Premium (Standard - $49/mo)</option>
+                                <option value="vip-elite">VIP Elite (Premium - $79/mo)</option>
+                                <option value="other">General Enquiry / Guest Pass</option>
+                            </select>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formMessage">Message</label>
+                            <textarea id="formMessage" name="message" rows="5" placeholder="Tell us about your fitness goals..." required></textarea>
+                            <span class="focus-border"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Preferred Contact Method</label>
+                            <div class="contact-methods">
+                                <label class="contact-option"><input type="radio" name="contactMethod" value="email" checked> Email </label>
+                                <label class="contact-option"><input type="radio" name="contactMethod" value="whatsapp"> WhatsApp </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit btn-glow">
+                            <span>Send Transmission</span>
+                            <svg class="submit-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+                            </svg>
+                        </button>
+                    </form>
+                    
+                    <!-- Form Submission Success Dialog (Hidden initially) -->
+                    <div class="form-success-message" id="successMessage" style="display: none;">
+                        <div class="success-icon-circle">
+                            <svg class="success-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                        </div>
+                        <h3>MESSAGE RECEIVED</h3>
+                        <p>Your target profile has been created. An APEX representative will contact you shortly.</p>
+                        <button class="btn btn-secondary" id="resetFormBtn">Send Another Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-accent">APEX</span>ATHLETICS
+                </a>
+                <p class="footer-tagline">Elevating human physical standards through premium recovery, science-based programming, and top-tier coaches.</p>
+                <div class="footer-social-row">
+                    <a href="#" aria-label="Facebook"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                    <a href="#" aria-label="Instagram"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01"/></svg></a>
+                    <a href="#" aria-label="Twitter"><svg class="soc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                </div>
+            </div>
+
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h4>QUICK NAV</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">Why Choose Us</a></li>
+                        <li><a href="#plans">Membership Plans</a></li>
+                        <li><a href="#video">Training Protocol</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>FACILITY</h4>
+                    <ul>
+                        <li><a href="#trainers">Our Coaches</a></li>
+                        <li><a href="#gallery">The Arena Gallery</a></li>
+                        <li><a href="#reviews">Testimonials</a></li>
+                        <li><a href="#contact">Reach APEX</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>LEGAL</h4>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Liability Waiver</a></li>
+                        <li><a href="#">Membership Agreement</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 APEX ATHLETICS. All Rights Reserved. Crafted for elite standards.</p>
+                <p class="admin-editable-note">Note to Owner: Edit phone number, brand name, and colors directly in HTML/CSS variables.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
