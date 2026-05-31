@@ -223,10 +223,27 @@ function initVideoPlayer() {
     const overlay   = document.querySelector('.video-overlay-play');
     if (!playBtn || !video || !overlay) return;
 
+    const source = video.querySelector('#trainingSource');
+    const updateVideoSource = () => {
+        const portraitSrc = video.dataset.portraitSrc?.trim();
+        const landscapeSrc = video.dataset.landscapeSrc?.trim();
+        const usePortrait = window.matchMedia('(orientation: portrait)').matches || window.innerWidth <= 768;
+        const selectedSrc = usePortrait ? portraitSrc || landscapeSrc : landscapeSrc || portraitSrc;
+        if (!selectedSrc || !source) return;
+        if (source.getAttribute('src') !== selectedSrc) {
+            source.src = selectedSrc;
+            video.load();
+        }
+    };
+
+    updateVideoSource();
+    window.addEventListener('resize', updateVideoSource);
+    window.addEventListener('orientationchange', updateVideoSource);
+
     playBtn.addEventListener('click', () => {
         video.style.display = 'block';
         overlay.style.display = 'none';
-        video.play().catch(() => {}); // catches autoplay policy rejections silently
+        video.play().catch(() => {});
     });
 
     video.addEventListener('ended', () => {

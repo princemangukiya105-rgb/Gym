@@ -293,7 +293,7 @@
                 <span class="section-subtitle">MOTIVATIONAL STANDARD</span>
                 <h2 class="section-title">TRAINING PROTOCOLS</h2>
                 <div class="title-bar"></div>
-                <p class="section-desc">Glimpse into our heavy training days. Watch the session trailer below to see our premium culture in action.</p>
+                <p class="section-desc">Glimpse into our heavy training days with a phone-ready portrait clip on mobile and a widescreen landscape cut for desktop/tablet.</p>
             </div>
 
             <!-- Video Player Mockup -->
@@ -308,10 +308,13 @@
                         <h3>WATCH APEX IN ACTION</h3>
                         <p>2:14 mins • Cinematic Training Reel</p>
                     </div>
-                    <!-- The actual video element (hidden by default, loaded on play click for speed) 
-                         Gym owners can edit the video src below manually as requested -->
-                    <video id="trainingVideo" controls class="main-video-element" style="display: none;">
-                        <source src="Gym training.mp4" type="video/mp4">
+                    <!-- The actual video element (hidden by default, loaded on play click for speed).
+                         Use data-landscape-src for desktop/tablet and data-portrait-src for phones. -->
+                    <video id="trainingVideo" controls class="main-video-element" style="display: none;"
+                           poster="thumbnail_1_31.1s.jpeg"
+                           data-landscape-src="Gym training.mp4"
+                           data-portrait-src="Gym_training_portrait.mp4">
+                        <source id="trainingSource" src="Gym training.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
